@@ -9,7 +9,8 @@ function Division3() {
           <AiFillCaretRight onClick={() => { third ? setThird(false) : setThird(true) }} />location
           <ul style={{ listStyle: "none" }}>
               {third ? data.map((e, index) => (
-                  <li key={index}>City : {e.location.city} </li>
+                  <li key={index}>City : {e.location.city} <br/>
+                  </li>
               )) : ""}
           </ul>
     </div>

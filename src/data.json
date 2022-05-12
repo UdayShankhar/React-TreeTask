@@ -9,6 +9,9 @@
     },
     "location": {
       "city": "Chennai"
+    },
+    "studies":{
+      "college":"Jeppiaar"
     }
   }
 ]
